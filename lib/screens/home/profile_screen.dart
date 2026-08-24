@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class ProfileScreen extends StatelessWidget { const ProfileScreen({super.key}); @override Widget build(BuildContext c)=>Scaffold(appBar: AppBar(title: const Text('Profile')), body: Padding(padding: const EdgeInsets.all(20), child: Column(children: [const CircleAvatar(radius: 42, child: Icon(Icons.person, size: 42)), const SizedBox(height: 20), FilledButton(onPressed: (){}, child: const Text('SWITCH TO NON-WINNER')), OutlinedButton(onPressed: (){}, child: const Text('BECOME PRO'))]))); }
