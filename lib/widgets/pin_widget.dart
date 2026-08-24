@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class PinWidget extends StatelessWidget { final TextEditingController controller; const PinWidget({super.key, required this.controller}); @override Widget build(BuildContext c)=>TextField(controller: controller, maxLength: 4, obscureText: true, keyboardType: TextInputType.number, decoration: const InputDecoration(labelText: '4-digit PIN', border: OutlineInputBorder())); }
