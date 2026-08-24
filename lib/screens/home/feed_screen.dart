@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class CircleFeedScreen extends StatelessWidget { const CircleFeedScreen({super.key}); @override Widget build(BuildContext c)=>Scaffold(appBar: AppBar(title: const Text('CIRCLE 50 Feed')), body: ListView.builder(itemCount: 5, itemBuilder: (_,i)=>Card(margin: const EdgeInsets.all(12), child: ListTile(leading: const Icon(Icons.play_circle_outline), title: Text('Community post ${i+1}'), subtitle: const Text('Likes • Views • Score'), trailing: IconButton(icon: const Icon(Icons.favorite_border), onPressed: (){}))))); }
