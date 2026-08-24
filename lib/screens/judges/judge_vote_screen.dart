@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class JudgeVoteScreen extends StatelessWidget { const JudgeVoteScreen({super.key}); @override Widget build(BuildContext c)=>Scaffold(appBar: AppBar(title: const Text('Judge vote')), body: Padding(padding: const EdgeInsets.all(20), child: Column(children: [const Text('Anonymous candidate review'), const SizedBox(height: 20), Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [FilledButton(onPressed: (){}, child: const Text('AGREE')), OutlinedButton(onPressed: (){}, child: const Text('DISAGREE'))])]))); }
