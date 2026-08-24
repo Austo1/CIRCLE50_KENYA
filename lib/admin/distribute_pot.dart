@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class DistributePot extends StatelessWidget { const DistributePot({super.key}); @override Widget build(BuildContext c)=>Scaffold(appBar: AppBar(title: const Text('Distribute pot')), body: Padding(padding: const EdgeInsets.all(20), child: Column(children: [const Text('Configured split: 30% / 10% / 10% / 5% / 45%'), const SizedBox(height: 20), FilledButton(onPressed: (){}, child: const Text('DISTRIBUTE POT'))]))); }
