@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class AdminDashboard extends StatelessWidget { const AdminDashboard({super.key}); @override Widget build(BuildContext c)=>Scaffold(appBar: AppBar(title: const Text('CIRCLE 50 Admin')), body: ListView(padding: const EdgeInsets.all(20), children: const [Card(child: ListTile(title: Text('Total pot'), subtitle: Text('Live balance requires Firebase aggregation'))), ListTile(title: Text('Security'), subtitle: Text('Admin access must be protected by server-side authorization.'))])); }
