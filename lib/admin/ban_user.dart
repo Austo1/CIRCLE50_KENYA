@@ -1,0 +1,2 @@
+import 'package:flutter/material.dart';
+class BanUser extends StatelessWidget { const BanUser({super.key}); @override Widget build(BuildContext c)=>Scaffold(appBar: AppBar(title: const Text('Ban user')), body: Padding(padding: const EdgeInsets.all(20), child: Column(children: [const TextField(decoration: InputDecoration(labelText: 'User ID', border: OutlineInputBorder())), const SizedBox(height: 16), FilledButton(onPressed: (){}, child: const Text('BAN FOR LIFE'))]))); }
